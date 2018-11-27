@@ -2,7 +2,7 @@
     "workbench.iconTheme": "material-icon-theme",
     "workbench.startupEditor": "newUntitledFile",
     "workbench.colorTheme": "Eva Dark Bold",
-    "python.jediEnabled": false,
+    // "python.jediEnabled": false,
     "editor.lineNumbers": "relative",
     "vim.easymotion": true,
     "vim.sneak": true,
@@ -10,6 +10,7 @@
     "vim.useSystemClipboard": true,
     "vim.useCtrlKeys": true,
     "vim.hlsearch": true,
+    "zenMode.hideActivityBar": false,
     "vim.insertModeKeyBindings": [
         {
         "before": ["j", "j"],
@@ -20,6 +21,14 @@
         {
         "before": ["<leader>", "r","e"],
         "after": ["v", "e","d", "i",]
+        },
+        {
+        "before": ["<C-l>"],
+        "after": [""]
+        },
+        {
+        "before": ["<C-h>"],
+        "after": ["<C-pgdn>"]
         },
         {
         "before": ["<leader>", "d"],
@@ -57,12 +66,14 @@
     "vim.leader": "<space>",
     "vim.handleKeys": {
         "<C-a>": true,
-        "<C-f>": false 
+        "<C-f>": false,
+        "<C-b>": false, 
+        "<C-k>": false 
     },
     "editor.detectIndentation": false,
     "workbench.activityBar.visible": true,
     "workbench.statusBar.visible": true,
     "files.associations": {
         "*.html": "html"
-    }
+    },
 }
