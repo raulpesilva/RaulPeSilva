@@ -1,7 +1,7 @@
 {
     "workbench.iconTheme": "material-icon-theme",
     "workbench.startupEditor": "newUntitledFile",
-    "workbench.colorTheme": "Gloom",
+    "workbench.colorTheme": "Eva Dark Bold",
     "python.jediEnabled": false,
     "editor.lineNumbers": "relative",
     "vim.easymotion": true,
@@ -18,7 +18,7 @@
     ],
     "vim.normalModeKeyBindingsNonRecursive": [
         {
-        "before": ["<leader>", "s","e"],
+        "before": ["<leader>", "r","e"],
         "after": ["v", "e","d", "i",]
         },
         {
@@ -44,6 +44,10 @@
         {
         "before": ["<"],
         "commands": ["editor.action.outdentLines"]
+        },
+        {
+        "before": ["<leader>", ";"],
+        "commands": [":s/$/;/"]
         },
         // {
         // "before": [":"],
