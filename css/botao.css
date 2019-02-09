@@ -63,6 +63,12 @@
     align-content: center;
 
 }
+.botao-menu-mobile:hover{
+    cursor: pointer;
+}
+.botao-fechar-menu:hover{
+    cursor: pointer;
+}
 .img-menu{
     width: 20px;
     height: 20px;
@@ -77,8 +83,20 @@
 
     }
     .botao-menu-mobile{
+        position: absolute;
         display: flex;
+        flex-wrap: wrap;
+        
+        height: 20px;
+        /* width: 100%; */
+        z-index: 1;
+        top: 0;
+
     }
+    /* .bg-menu-mobile{
+        background-color: #3C426B; 
+        
+    }  */
 
     
 }
