@@ -75,14 +75,25 @@ body{
 @media  only screen and (max-width: 800px){
     .conteudo{
         margin-left: 0;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
     }
     .corpo{
         justify-content: center;
+    }
+    .wrap-titulo{
+        width: 100%;
+    }
+    .titulo-home{
+        font-size: 1.5em;
     }
 
     .conteudo-pagina{
         width: 80vw;
         height: min-content;
+        align-items: center;
+        
     }
     .conteudo-apresentacao{
         /* width: 20em; */

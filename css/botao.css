@@ -70,8 +70,10 @@
 
 @media  only screen and (max-width: 800px){
     .wrap-botoes{
-        width: 20em;
+        /* width: 80vw; */
         /* height: min-content; */
+        display: flex;
+        flex-direction: column;
 
     }
     .botao-menu-mobile{
