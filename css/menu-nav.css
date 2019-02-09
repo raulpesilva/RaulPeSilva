@@ -95,6 +95,9 @@
 .botao-menu-mobile-fechar:hover{
     transform: rotate(90deg);
 }
+.mostra-menu{
+    display: flex;
+}
 
 @media  only screen and (max-width: 800px){
     .menu-nav-item:hover::before{
@@ -102,8 +105,11 @@
         height: 1em;
         left: 4em;
     }
-    .menu-nav{
+    .mostra-menu{
         display: none;
+        
+    }
+    .menu-nav{
         position: fixed;
         left: 0;
         height: 100%;
