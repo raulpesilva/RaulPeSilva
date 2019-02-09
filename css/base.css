@@ -83,10 +83,12 @@ body{
         justify-content: center;
     }
     .wrap-titulo{
-        width: 100%;
+        width: max-content;
+        
     }
     .titulo-home{
         font-size: 1.5em;
+        padding-left: 1em;
     }
 
     .conteudo-pagina{
