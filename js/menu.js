@@ -9,6 +9,14 @@ $botao_fechar_menu.addEventListener('click', event => {
     
 })
 
+window.addEventListener('resize',event =>{
+    const $elemento = getComputedStyle($botao_fechar_menu);
+    // console.log($elemento);
+    if(window.innerWidth >= 799 && $elemento.display == 'flex'){
+        $menu_nav.style.display = 'flex';
+    }
+})
+
 $menu_mobile.addEventListener('click',event => {
 
     $menu_nav.style.display = 'flex';
