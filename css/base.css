@@ -2,7 +2,7 @@ body{
     font-family: 'Lato', sans-serif;
     /* height: 100%;
     width: 100%; */
-    background-image: linear-gradient(106deg, #3C426B, #313550);
+    background-image: linear-gradient(123deg, #3C426B, #313550);
     background-repeat: no-repeat;
     background-attachment: fixed;
     display: flex;
@@ -44,4 +44,50 @@ body{
     height: min-content;
 
     flex-direction: row;
+}
+
+.conteudo-pagina{
+    display: flex;
+    width: 30em;
+    height: 20em;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-top: 5em;
+}
+
+.titulo-apresentacao{
+    color: #fff;
+    font-size: 1.5em;
+    
+    
+}
+
+.conteudo-apresentacao{
+    padding-top: 2em;
+    color: #fff;
+    width: 35em;
+    line-height: 1.3em;
+}
+
+/* media */
+
+@media  only screen and (max-width: 800px){
+    .conteudo{
+        margin-left: 0;
+    }
+    .corpo{
+        justify-content: center;
+    }
+
+    .conteudo-pagina{
+        width: 80vw;
+        height: min-content;
+    }
+    .conteudo-apresentacao{
+        /* width: 20em; */
+        width: 100%;
+        text-align: justify;
+    }
+
 }

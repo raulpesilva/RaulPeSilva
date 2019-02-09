@@ -1,0 +1,82 @@
+.wrap-botoes{
+    display: flex;
+    justify-content: space-between;
+    width: 65%;
+}
+
+.botao{
+    border: none;
+    border-radius: 50px;
+    font-weight: 700;
+    outline: none;
+    transition-duration: 250ms;
+    
+
+
+}
+.botao:hover{
+    cursor: pointer;
+}
+
+.botao-cheio{
+    background-image: linear-gradient(45deg, #2DA4FF, #0066CC);
+    color: #fff;
+    box-shadow: #0066CC 0 1px 5px;
+    background-repeat: no-repeat;
+    
+
+}
+.botao-cheio:hover{
+    background-image: linear-gradient(20deg, #2DA4FF, #0066CC);
+    box-shadow: rgb(34, 140, 247) 0 1px 5px;
+
+}
+.botao-vazio{
+    border: #2DA4FF solid 1px;
+    background: none;
+    color: #fff;
+    box-sizing: border-box;
+    box-shadow: #0066CC 0 1px 5px;
+
+
+}
+.botao-vazio:hover{
+    border: rgb(95, 182, 248) solid 1px;
+    box-shadow: rgb(45, 146, 247) 0 1px 5px;
+
+
+}
+.botao-big{
+    padding: 1em 2em;
+}
+
+.botao-home{
+    margin-top: 1.5em;
+}
+
+.botao-menu-mobile{
+    position: absolute;
+    display: none;
+    padding: 1em;
+    left: 0;
+    color: #fff;
+    align-content: center;
+
+}
+.img-menu{
+    width: 20px;
+    height: 20px;
+}
+
+@media  only screen and (max-width: 800px){
+    .wrap-botoes{
+        width: 20em;
+        /* height: min-content; */
+
+    }
+    .botao-menu-mobile{
+        display: flex;
+    }
+
+    
+}

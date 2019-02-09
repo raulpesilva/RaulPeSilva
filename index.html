@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/menu-nav.css">
+    <link rel="stylesheet" href="css/botao.css">
 
     <!-- Font -->
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
@@ -17,17 +18,23 @@
 </head>
 <body >
     <div class="corpo">
-        <header class="menu-nav">
+        <div class="botao-menu-mobile">
+            <img class="img-menu" src="img/menu.svg"></img>
+        </div>
+        <header class="menu-nav desktop">
+            <div class="botao-menu-mobile-fechar">
+                <img class="botao-fechar-menu" src="img/close.svg"></img>
+            </div>
             <ul class="menu menu-nav-wrap">
-                <li class="menu menu-nav-item"><a href="" class="link-menu-nav">Home</a></li>
-                <li class="menu menu-nav-item"><a href="" class="link-menu-nav">Sobre</a></li>
-                <li class="menu menu-nav-item"><a href="" class="link-menu-nav">Projetos</a></li>
-                <li class="menu menu-nav-item"><a href="" class="link-menu-nav">Contato</a></li>
+                <li class="menu menu-nav-item "><a href="" class="link-menu-nav">Home</a></li>
+                <li class="menu menu-nav-item "><a href="" class="link-menu-nav">Sobre</a></li>
+                <li class="menu menu-nav-item "><a href="" class="link-menu-nav">Projetos</a></li>
+                <li class="menu menu-nav-item "><a href="" class="link-menu-nav">Contato</a></li>
             </ul>
             <ul class="menu-social-wrap">
-                    <li class="menu-social-item"><a href="https://www.linkedin.com/in/raulpesilva/" class="link-menu-social"> <img src="img/linkedin.svg" alt="logo linkedin" class="menu-social-img"></a></li>
-                    <li class="menu-social-item"><a href="https://github.com/raulpesilva" class="link-menu-social"><img src="img/github.svg" alt="logo github" class="menu-social-img"></a></li>
-                    <li class="menu-social-item"><a href="https://www.behance.net/raulpesilva" class="link-menu-social"><img src="img/behance.svg  " alt="logo behance" class="menu-social-img"></a></li>
+                    <li class="menu-social-item "><a href="https://www.linkedin.com/in/raulpesilva/" class="link-menu-social"> <img src="img/linkedin.svg" alt="logo linkedin" class="menu-social-img"></a></li>
+                    <li class="menu-social-item "><a href="https://github.com/raulpesilva" class="link-menu-social"><img src="img/github.svg" alt="logo github" class="menu-social-img"></a></li>
+                    <li class="menu-social-item "><a href="https://www.behance.net/raulpesilva" class="link-menu-social"><img src="img/behance.svg  " alt="logo behance" class="menu-social-img"></a></li>
                 </ul>
         </header>
         <div class="conteudo">
@@ -35,8 +42,19 @@
                 <i class="logo"></i>
                 <h1 class="titulo-home">Raul Pereira da Silva</h1>
             </div>
+            <section class="conteudo-pagina">
+                <h1 class="titulo-apresentacao">Quem sou eu!</h1>
+                <p class="conteudo-apresentacao">Estudante de Análise e Desenvolvimento de Sistemas na Faculdade de Tecnologia Antonio Russo, formado em Produção Multimídia - Web Design, Audiovisual & Design Digital pela Faculdade Impacta Tecnologia e alguns cursos pela Alura, atualmente estudando JavaScript avançado com foco em Front-End alem do conteúdo dado em sala de aula. <br>
+                    Me defino como uma pessoa que gosta sempre de estar aprendendo e procurando por desafios novos, eles me motivam a me empenhar ainda mais no que faço.
+                </p>
+                <div class="wrap-botoes">
+                    <button class="botao botao-cheio botao-big botao-home">Ver Habilidades</button>
+                    <button class="botao botao-vazio botao-big botao-home">Ver projetos</button>
+                </div>
+            </section>
 
-            </div>
+        </div>
     </div>
+    <script src="js/menu.js"></script>
 </body>
 </html>
