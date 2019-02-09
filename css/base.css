@@ -26,9 +26,9 @@ body{
     width: 100%;
     right: 100%;
     /* flex-direction: column; */
-    justify-content: center;
-    position: absolute;
-    top: 0;
+    justify-content: flex-start;
+    position: relative;
+    /* top: 0; */
     left: 0;
 }
 .conteudo{
