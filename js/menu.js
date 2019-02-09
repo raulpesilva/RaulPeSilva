@@ -28,38 +28,38 @@ $botao_fechar_menu.addEventListener('click', event => {
 // })
 
 
-const prevScrollpos = window.pageYOffset;
+// const prevScrollpos = window.pageYOffset;
 
 
-window.onscroll = function () {
+// window.onscroll = function () {
 
-    const currentScrollpos = window.pageYOffset;
+//     const currentScrollpos = window.pageYOffset;
 
     
-    if( (prevScrollpos + 10) > currentScrollpos ){
+//     if( (prevScrollpos + 10) > currentScrollpos ){
 
-        document.getElementById('menu-mobile').style.top = '0';
+//         document.getElementById('menu-mobile').style.top = '0';
         
 
-    }else{
-        document.getElementById('menu-mobile').style.top = '-50px';
+//     }else{
+//         document.getElementById('menu-mobile').style.top = '-50px';
 
-    }
-}
+//     }
+// }
 // console.log(window.pageYOffset);
 
-function menuScroll(prevScrollpos){
-    let currentScrollpos = window.pageYOffset;
+// function menuScroll(prevScrollpos){
+//     let currentScrollpos = window.pageYOffset;
 
-    if(prevScrollpos > currentScrollpos){
-        document.getElementById('menu-mobile').style.top = '0px';
+//     if(prevScrollpos > currentScrollpos){
+//         document.getElementById('menu-mobile').style.top = '0px';
 
-    }else{
-        document.getElementById('menu-mobile').style.top = '-50px';
+//     }else{
+//         document.getElementById('menu-mobile').style.top = '-50px';
         
 
-    }
-}
+//     }
+// }
 
 
 
