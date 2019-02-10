@@ -1,7 +1,7 @@
 .wrap-botoes{
     display: flex;
     justify-content: space-between;
-    width: 65%;
+    width: 20em;
 }
 
 .botao{
@@ -16,7 +16,8 @@
 }
 .link-botao{
     text-decoration: none;
-    color: #fff
+    color: #fff;
+    text-align: center;
 }
 .botao:hover{
     cursor: pointer;
@@ -51,7 +52,7 @@
 
 }
 .botao-big{
-    padding: 1em 2em;
+    padding: 1em 1.5em;
 }
 
 .botao-home{
