@@ -138,18 +138,22 @@ body{
 }
 .nivel-habilidade{
     background-color: rgb(64, 70, 109);
-    height: 1em;
+    height: .8em;
     width: 100%;
     margin-top: 1em;
     border-radius: 25px;
     overflow: hidden;
     margin-left: 1  .5em;
+    /* font-size: .8em; */
+
 
 }
 .porcentagem-habilidade{
     opacity: 0;
+    font-size: .8em;
     color: #fff;
     text-align: center;
+    
     transition: 250ms;
 }
 .wrap-habilidade-item:last-child{
@@ -162,6 +166,7 @@ body{
 .bg-porcentagem-habilidade{
     background-image: linear-gradient(45deg, #2DA4FF, #0066CC);
     height: 100%;
+    border-radius: 50px;
     
 }
 .nivel-photoshop{
