@@ -186,6 +186,7 @@ body{
         justify-content: center;
         display: flex;
         flex-direction: column;
+        width: 90%;
     }
     .corpo{
         /* flex-direction: column; */
@@ -225,6 +226,10 @@ body{
         width: 90%;
         /* margin-left: 1.5em; */
         
+    }
+    .sub-formacao{
+        width: 90%;
+        text-align: justify;
     }
 
 
