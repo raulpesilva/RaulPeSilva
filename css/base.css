@@ -36,12 +36,6 @@ body{
     margin-left: 5em;
 }
 
-.titulo-home{
-    color: #fff;
-    font-size: 2em;
-
-    
-}
 
 .logo{
     /* content: ''; */
@@ -49,6 +43,25 @@ body{
     height: 40px;
     background-image: linear-gradient(#2DA4FF, #0066CC);    transform: rotate(45deg);
     border-radius: 10px;
+}
+.foto-perfil{
+    background-image: url(../img/raul.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+}
+
+.titulo-home{
+    color: #fff;
+    font-size: 2em;
+
+    
+}
+.titulo-sobre{
+    color: #fff;
+    font-size: 2em;
+    margin-left: .5em;
+    
 }
 .wrap-titulo{
     display: flex;
@@ -59,6 +72,33 @@ body{
     height: min-content;
 
     flex-direction: row;
+}
+.wrap-titulo-sobre{
+    display: flex;
+    /* align-items: center; */
+}
+.wrap-titulo-subtitulo{
+    display: flex;
+    flex-direction: column;
+
+}
+.titulo-conteudo{
+    color: #ffffff;
+    margin-left: .5em;
+    margin-top: 1em;
+    font-size: 1.5em;
+}
+
+.subtitulo-sobre{
+    color: #fff;
+    opacity: .8;
+    margin-left: 1.5em;
+
+}
+
+.sub-formacao{
+    margin-top: 1em;
+    width: 23em;
 }
 
 .conteudo-pagina{
@@ -87,6 +127,57 @@ body{
 }
 
 
+.titulo-habilidade-item{
+    color: #ffffff;
+    /* margin-left: 1.5em; */
+    margin-top: 1em;
+
+    
+}
+.nivel-habilidade{
+    background-color: rgb(64, 70, 109);
+    height: 1em;
+    width: 100%;
+    margin-top: 1em;
+    border-radius: 25px;
+    overflow: hidden;
+    margin-left: 1  .5em;
+
+}
+.porcentagem-habilidade{
+    opacity: 0;
+    color: #fff;
+    text-align: center;
+}
+.wrap-habilidade-item:hover  .porcentagem-habilidade{
+    opacity: 1;
+    cursor: pointer;
+}
+.bg-porcentagem-habilidade{
+    background-image: linear-gradient(45deg, #2DA4FF, #0066CC);
+    height: 100%;
+    
+}
+.nivel-photoshop{
+    width: 100%;
+}
+.nivel-adobeXD{
+    width: 90%;
+}
+.nivel-HTML{
+    width: 100%;
+}
+.nivel-CSS{
+    width: 92%;
+}
+.nivel-javascript{
+    width: 85%;
+}
+.nivel-python{
+    width: 80%;
+}
+
+
 /* media */
 
 @media  only screen and (max-width: 800px){
@@ -98,6 +189,7 @@ body{
     }
     .corpo{
         /* flex-direction: column; */
+        
         justify-content: center;
 
     }
@@ -121,5 +213,19 @@ body{
         width: 100%;
         text-align: justify;
     }
+    .wrap-habilidades{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .wrap-habilidades:first-child{
+        align-items: flex-start;
+    }
+    .group-skills{
+        width: 90%;
+        /* margin-left: 1.5em; */
+        
+    }
+
 
 }
