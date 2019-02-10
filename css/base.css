@@ -184,9 +184,14 @@ body{
     .conteudo{
         margin-left: 0;
         justify-content: center;
+
         display: flex;
         flex-direction: column;
         width: 90%;
+    }
+    .conteudo-home{
+        align-items: center;
+
     }
     .corpo{
         /* flex-direction: column; */
@@ -207,6 +212,7 @@ body{
         width: 80vw;
         height: min-content;
         align-items: center;
+        
         
     }
     .conteudo-apresentacao{
