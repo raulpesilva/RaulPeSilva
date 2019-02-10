@@ -39,8 +39,10 @@
     margin-left: 2em;
     height: 100vh;
     width: min-content;
+    width: -moz-min-content;
+    width: -webkit-min-content;
     /* position: fixed; */
-    transition: 250ms;
+    /* animation: 250ms; */
     
     
     

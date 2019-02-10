@@ -70,6 +70,8 @@ body{
     justify-content: space-between;
     width: 22em;
     height: min-content;
+    height: -moz-min-content;
+    height: -webkit-min-content;
 
     flex-direction: row;
 }
@@ -148,6 +150,10 @@ body{
     opacity: 0;
     color: #fff;
     text-align: center;
+    transition: 250ms;
+}
+.wrap-habilidade-item:last-child{
+    margin-bottom: 2em;
 }
 .wrap-habilidade-item:hover  .porcentagem-habilidade{
     opacity: 1;
@@ -211,6 +217,8 @@ body{
     .conteudo-pagina{
         width: 80vw;
         height: min-content;
+        height: -moz-min-content;
+        height: -webkit-min-content;
         align-items: center;
         
         
