@@ -42,7 +42,7 @@
     width: -moz-min-content;
     width: -webkit-min-content;
     /* position: fixed; */
-    /* animation: 250ms; */
+    transition: 250ms ease-in-out;
     
     
     
@@ -97,9 +97,6 @@
 .botao-menu-mobile-fechar:hover{
     transform: rotate(90deg);
 }
-.mostra-menu{
-    display: flex;
-}
 
 @media  only screen and (max-width: 800px){
     .menu-nav-item:hover::before{
@@ -107,13 +104,10 @@
         height: 1em;
         left: 4em;
     }
-    .mostra-menu{
-        display: none;
-        
-    }
+
     .menu-nav{
         position: fixed;
-        left: 0;
+        left: -221px;
         height: 100%;
         justify-content: space-around;
         background-image: linear-gradient(123deg, #3C426B, #313550);
@@ -123,6 +117,7 @@
         padding-right: 5em;
         margin-left: 0;
         overflow: hidden;
+        /* transition: 2500ms; */
     }
     .botao-fechar-menu{
         display: flex;
