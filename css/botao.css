@@ -3,6 +3,9 @@
     justify-content: space-between;
     width: 20em;
 }
+.wrap-botoes:last-child{
+    margin-bottom: 2em;
+}
 
 .botao{
     border: none;
@@ -58,6 +61,7 @@
 .botao-home{
     margin-top: 1.5em;
 }
+
 
 .botao-menu-mobile{
     position: absolute;
