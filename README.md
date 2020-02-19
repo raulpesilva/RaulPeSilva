@@ -1,6 +1,7 @@
 # My personal settings
 
 # Snippets:
+
 ```json
 {
   "React Component": {
@@ -50,5 +51,44 @@
     "description": "Create a base styled components of react-native"
   }
 }
-
 ```
+
+# Prettier config:
+```json
+{
+  "trailingComma": "es5",
+  "tabWidth": 2,
+  "semi": false,
+  "singleQuote": true
+}
+```
+# Keybindings:
+
+```json
+[
+  {
+    "key": "alt+c",
+    "command": "editor.action.clipboardCopyAction",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "alt+v",
+    "command": "editor.action.clipboardPasteAction",
+    "when": "textInputFocus && !editorReadonly"
+  },
+  {
+    "key": "ctrl+s",
+    "command": "workbench.action.files.saveAll",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "alt+s",
+    "command": "workbench.action.files.saveAll"
+  },
+  {
+    "key": "ctrl+k s",
+    "command": "-workbench.action.files.saveAll"
+  }
+]
+```
+
