@@ -1,7 +1,3 @@
-# My personal settings
-
-# Snippets:
-```json
 {
   "React Component": {
     "prefix": "rn",
@@ -50,5 +46,3 @@
     "description": "Create a base styled components of react-native"
   }
 }
-
-```
