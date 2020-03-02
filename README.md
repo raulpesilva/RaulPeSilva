@@ -62,6 +62,7 @@
   "singleQuote": true
 }
 ```
+
 # Keybindings:
 
 ```json
