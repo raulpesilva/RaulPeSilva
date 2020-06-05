@@ -59,7 +59,10 @@
   "trailingComma": "es5",
   "tabWidth": 2,
   "semi": false,
-  "singleQuote": true
+  "singleQuote": true,
+  "bracketSpacing": true,
+  "printWidth": 100,
+  "arrowParens": "avoid"
 }
 ```
 
