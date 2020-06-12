@@ -69,6 +69,7 @@
 # Keybindings:
 
 ```json
+// Place your key bindings in this file to override the defaults
 [
   {
     "key": "alt+c",
@@ -86,13 +87,27 @@
     "when": "editorTextFocus && !editorReadonly"
   },
   {
-    "key": "alt+s",
-    "command": "workbench.action.files.saveAll"
-  },
-  {
     "key": "ctrl+k s",
     "command": "-workbench.action.files.saveAll"
+  },
+
+  {
+    "key": "alt+s",
+    "command": "editor.action.insertSnippet",
+    "when": "editorTextFocus",
+    "args": {
+      "snippet": "const [${TM_SELECTED_TEXT},set${TM_SELECTED_TEXT/(.*)/${1:/capitalize}/}] = useState($2)"
+    }
+  },
+  {
+    "key": "ctrl+shift+i",
+    "command": "editor.action.sourceAction",
+    "args": {
+      "kind": "source.addMissingImports",
+      "apply": "first"
+    }
   }
 ]
+
 ```
 
