@@ -1,0 +1,63 @@
+{
+  "Styled Components ReactJS": {
+    "prefix": "styled",
+    "body": [
+      "import styled from 'styled-components'",
+      "",
+      "export const ${1:Container} = styled.${2:div}`$3`",
+      ""
+    ],
+    "description": "Create a base styled components of ReactJS"
+  },
+  "Styled Components React Native": {
+    "prefix": "styledn",
+    "body": [
+      "import styled from 'styled-components/native'",
+      "",
+      "export const ${1:Container} = styled.${2:View}`$3`",
+      ""
+    ],
+    "description": "Create a base styled components of ReactJS"
+  },
+  "Styled Components React Native linux": {
+    "prefix": "stl",
+    "body": [
+      "import styled from 'styled-components/native'",
+      "",
+      "export const ${1:Container} = styled.${2:View}`$3`",
+      ""
+    ],
+    "description": "Create a base styled components of ReactJS"
+  },
+  "type for react component": {
+    "prefix": "rtype",
+    "body": [
+      "import { CSSProperties, ReactElement } from 'react'",
+      "import { IThemeProps } from '../../../../assets/theme/types'",
+      "",
+      "export interface Base${3:${TM_DIRECTORY/^.+\\\\(.*)$/$1/}}Props extends Partial<ReactElement<HTML${2:Div}Element> & IThemeProps> {",
+      "style?: CSSProperties",
+      "}"
+    ],
+    "description": "Create a base type components of ReactJS"
+  },
+  "create restate structure": {
+    "prefix": "rs",
+    "body": [
+      "import { createReState, createReStateSelect, createReStateDispatch, createGetReState } from '@raulpesilva/re-state'",
+      "",
+      "type ${TM_SELECTED_TEXT/(.*)/${1:/capitalize}/} = ${1:unknown}",
+      "",
+      "export const ${TM_SELECTED_TEXT/(.*)/${1:/upcase}/} = '${TM_SELECTED_TEXT}'",
+      "export const ${TM_SELECTED_TEXT}InitialValue = ${2:undefined}",
+      "",
+      "export const use${TM_SELECTED_TEXT/(.*)/${1:/capitalize}/} = createReState<${TM_SELECTED_TEXT/(.*)/${1:/capitalize}/}>(${TM_SELECTED_TEXT/(.*)/${1:/upcase}/}, ${TM_SELECTED_TEXT}InitialValue)",
+      "export const use${TM_SELECTED_TEXT/(.*)/${1:/capitalize}/}Select = createReStateSelect<${TM_SELECTED_TEXT/(.*)/${1:/capitalize}/}>(${TM_SELECTED_TEXT/(.*)/${1:/upcase}/})",
+      "export const dispatch${TM_SELECTED_TEXT/(.*)/${1:/capitalize}/} = createReStateDispatch<${TM_SELECTED_TEXT/(.*)/${1:/capitalize}/}>(${TM_SELECTED_TEXT/(.*)/${1:/upcase}/})",
+      "export const get${TM_SELECTED_TEXT/(.*)/${1:/capitalize}/} = createGetReState<${TM_SELECTED_TEXT/(.*)/${1:/capitalize}/}>(${TM_SELECTED_TEXT/(.*)/${1:/upcase}/})",
+      "export const reset${TM_SELECTED_TEXT/(.*)/${1:/capitalize}/} = () => dispatch${TM_SELECTED_TEXT/(.*)/${1:/capitalize}/}(${TM_SELECTED_TEXT}InitialValue)",
+      ""
+    ],
+    "description": "Create a base restate"
+  }
+}

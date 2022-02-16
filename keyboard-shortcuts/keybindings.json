@@ -1,0 +1,99 @@
+// Place your key bindings in this file to override the defaults
+[
+  {
+    "key": "alt+c",
+    "command": "editor.action.clipboardCopyAction",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "alt+v",
+    "command": "editor.action.clipboardPasteAction",
+    "when": "textInputFocus && !editorReadonly"
+  },
+  {
+    "key": "ctrl+s",
+    "command": "workbench.action.files.saveAll",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "ctrl+k s",
+    "command": "-workbench.action.files.saveAll"
+  },
+  {
+    "key": "alt+s",
+    "command": "editor.action.insertSnippet",
+    "when": "editorTextFocus && editorLangId =~ /^typescript|^javascript/",
+    "args": {
+      "snippet": "const [${TM_SELECTED_TEXT},set${TM_SELECTED_TEXT/(.*)/${1:/capitalize}/}] = useState($2)"
+    }
+  },
+  // {
+  //   "key": "alt+d",
+  //   "command": "editor.action.insertSnippet",
+  //   "when": "editorTextFocus",
+  //   "args": {
+  //     "snippet": "export const ${TM_SELECTED_TEXT/(.*)/${1:/capitalize}/} = styled.div.attrs((props: Base${3:${TM_DIRECTORY/^.+\\\\(.*)$/$1/}}Props)=>{})`$4`"
+  //   }
+  // },
+  {
+    "key": "alt+d",
+    "command": "editor.action.insertSnippet",
+    "when": "editorTextFocus && editorLangId =~ /^typescript|^javascript/",
+    "args": {
+      "snippet": "export const ${TM_SELECTED_TEXT/(.*)/${1:/capitalize}/} = styled.div`$4`"
+    }
+  },
+  {
+    "key": "alt+a",
+    "command": "editor.action.insertSnippet",
+    "when": "editorTextFocus && editorLangId =~ /^typescript|^javascript/",
+    "args": {
+      "langId": "typescript",
+      "name": "create restate structure"
+    }
+  },
+  {
+    "key": "alt+i",
+    "command": "editor.action.sourceAction",
+    "args": {
+      "kind": "source.addMissingImports",
+      "apply": "first"
+    }
+  },
+  {
+    "key": "ctrl+shift+i",
+    "command": "editor.action.sourceAction",
+    "args": {
+      "kind": "source.organizeImports",
+      "apply": "first"
+    }
+  },
+  {
+    "key": "ctrl+shift+w",
+    "command": "workbench.action.closeUnmodifiedEditors"
+  },
+  {
+    "key": "ctrl+k u",
+    "command": "-workbench.action.closeUnmodifiedEditors"
+  },
+  {
+    "key": "ctrl+e ctrl+e",
+    "command": "github.copilot.generate",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+enter",
+    "command": "-github.copilot.generate",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+e ctrl+e",
+    "command": "github.copilot.generate",
+    "when": "editorTextFocus && github.copilot.activated"
+  },
+  {
+    "key": "ctrl+enter",
+    "command": "-github.copilot.generate",
+    "when": "editorTextFocus && github.copilot.activated"
+  }
+]

@@ -1,0 +1,110 @@
+{
+  "React Component default": {
+    "prefix": "rn",
+    "body": [
+      "import * as S from './styles'",
+      "",
+      "export const ${3:${TM_DIRECTORY/^.+\\\\(.*)$/$1/}} = () => {",
+      "",
+      "  return <S.${1:Container}>$2</S.${1:Container}>",
+      "}",
+      ""
+    ],
+    "description": "Create a base component of react"
+  },
+  "React Component default linux": {
+    "prefix": "rnl",
+    "body": [
+      "import React from 'react'",
+      "import * as S from './styles'",
+      "",
+      "const ${3:${TM_DIRECTORY/^.+\\/(.*)$/$1/}} = () => {",
+      "",
+      "  return <S.${1:Container}>$2</S.${1:Container}>",
+      "}",
+      "",
+      "export default ${3:${TM_DIRECTORY/^.+\\/(.*)$/$1/}}",
+      ""
+    ],
+    "description": "Create a base component of react"
+  },
+  "React Component": {
+    "prefix": "rc",
+    "body": [
+      "import React from 'react'",
+      "import * as S from './styles'",
+      "",
+      "export const ${3:${TM_DIRECTORY/^.+\\\\(.*)$/$1/}} = () => {",
+      "",
+      "  return <S.${1:Container}>$2</S.${1:Container}>",
+      "}",
+      ""
+    ],
+    "description": "Create a base component of react"
+  },
+  "React function Component": {
+    "prefix": "rnc",
+    "body": [
+      "const ${TM_FILENAME/(.*)\\..+$/$1/} = props => {",
+      " $1",
+      "}",
+      ""
+    ],
+    "description": "Create a base component of react"
+  },
+  "React export default Component": {
+    "prefix": "expd",
+    "body": [
+      "export default ${TM_FILENAME/(.*)\\..+$/$1/}",
+      ""
+    ],
+    "description": "Create a base component of react"
+  },
+  "component did mount ": {
+    "prefix": "didm",
+    "body": [
+      "useEffect(() => {",
+      "$1",
+      "},[])"
+    ],
+    "description": "Create a base component of react"
+  },
+  "Styled Components ReactJS": {
+    "prefix": "styled",
+    "body": [
+      "import styled from 'styled-components'",
+      "",
+      "export const ${1:Container} = styled.${2:div}`$3`",
+      ""
+    ],
+    "description": "Create a base styled components of ReactJS"
+  },
+  "Styled Components ReactJS item": {
+    "prefix": "sc",
+    "body": [
+      "",
+      "export const ${1:Container} = styled.${2:div}`$3`",
+      ""
+    ],
+    "description": "Create a line styled components of ReactJS"
+  },
+  "Styled Components react-native": {
+    "prefix": "styledn",
+    "body": [
+      "import styled from 'styled-components/native'",
+      "",
+      "export const ${1:Container} = styled.${2:View}`$3`",
+      ""
+    ],
+    "description": "Create a base styled components of react-native"
+  },
+  "Styled Components react-native item": {
+    "prefix": "scn",
+    "body": [
+      "",
+      "export const ${1:Container} = styled.${2:View}`$3`",
+      ""
+    ],
+    "description": "Create a base styled components of react-native"
+  }
+}

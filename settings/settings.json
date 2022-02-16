@@ -1,0 +1,167 @@
+{
+  "workbench.colorTheme": "GitHub Dark",
+  "workbench.iconTheme": "material-icon-theme",
+  "eslint.format.enable": true,
+  "editor.rulers": [
+    120
+  ],
+  "editor.tabSize": 2,
+  "editor.fontLigatures": true,
+  "editor.suggestSelection": "first",
+  "editor.fontFamily": "'Fira Code',Consolas, 'Courier New', monospace",
+  "editor.codeActionsOnSave": [
+    "source.addMissingImports"
+  ],
+  "prettier.printWidth": 120,
+  "prettier.singleQuote": true,
+  "explorer.compactFolders": false,
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "todo-tree.tree.showScanModeButton": false,
+  "cSpell.language": "en,pt,pt_BR",
+  "cSpell.userWords": [
+    "anddoes",
+    "apexcharts",
+    "apikey",
+    "audioandvideo",
+    "bignumber",
+    "BROWSABLE",
+    "browserslist",
+    "Cacheable",
+    "camelcase",
+    "Chakra",
+    "commify",
+    "crossfade",
+    "cutmaker",
+    "datetimepicker",
+    "draggable",
+    "ellipsize",
+    "esnext",
+    "Essntls",
+    "ethersproject",
+    "ffmpeg's",
+    "Ffprobe",
+    "Fiorino",
+    "flatlist",
+    "Gilroy",
+    "GSERVICES",
+    "haptics",
+    "highestaudio",
+    "highestvideo",
+    "howpe",
+    "Ionicons",
+    "iphone",
+    "kinvo",
+    "majeur",
+    "microbundle",
+    "middlewares",
+    "netinfo",
+    "Nextra",
+    "nowrap",
+    "pancakeswap",
+    "predeploy",
+    "Pressable",
+    "proximos",
+    "Pully",
+    "raulpesilva",
+    "reactotron",
+    "RPCS",
+    "skus",
+    "sonyericsson",
+    "SSID",
+    "swipeable",
+    "TMDB",
+    "Trello",
+    "unimodules",
+    "unmaximize",
+    "Upsert",
+    "uuidv",
+    "WBNB",
+    "Wifi",
+    "yellowcam",
+    "ytdl"
+  ],
+  "json.schemas": [
+    {
+      "name": "vscode-expo-manifest",
+      "url": "file:///c%3A/Users/raul/AppData/Roaming/Code/User/globalStorage/bycedric.vscode-expo/manifest-44.0.0.json",
+      "fileMatch": [
+        "app.json",
+        "app.config.json"
+      ]
+    }
+  ],
+  "files.exclude": {
+    "**/.classpath": true,
+    "**/.project": true,
+    "**/.settings": true,
+    "**/.factorypath": true
+  },
+  "tabnine.experimentalAutoImports": true,
+  "files.eol": "\n",
+  "todo-tree.general.tags": [
+    "BUG",
+    "HACK",
+    "FIXME",
+    "TODO",
+    "XXX",
+    "[ ]",
+    "[x]"
+  ],
+  "todo-tree.regex.regex": "(//|#|<!--|;|/\\*|^|^\\s*(-|\\d+.))\\s*($TAGS)",
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "security.workspace.trust.untrustedFiles": "open",
+  "editor.inlineSuggest.enabled": true,
+  "github.copilot.enable": {
+    "*": true,
+    "yaml": false,
+    "plaintext": false,
+    "markdown": false
+  },
+  "material-icon-theme.folders.color": "#90a4ae",
+  "material-icon-theme.activeIconPack": "react",
+  "material-icon-theme.hidesExplorerArrows": false,
+  "material-icon-theme.folders.associations": {
+    "useCases": "controller",
+    "states": "context",
+    "infra": "app",
+    "domain": "class",
+    "schemas": "class",
+    "repositories": "mappings",
+    "requests": "api",
+    "request": "api",
+    "migrations": "tools",
+    "modules": "components",
+    "implementations": "core",
+    "dtos": "typescript",
+    "fakes": "mock",
+    "websockets": "pipe",
+    "protos": "pipe",
+    "grpc": "pipe",
+    "providers": "include",
+    "entities": "class"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "bracket-pair-colorizer-2.depreciation-notice": false,
+  "editor.formatOnSave": true
+}
