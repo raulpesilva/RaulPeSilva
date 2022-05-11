@@ -2,7 +2,7 @@
 
 <img align="right" src="https://raw.githubusercontent.com/leovargasdev/leovargasdev/master/.github/image.png" width="300"/>
 
-Me chamo Raul Pereira, tenho 25 anos, moro em Mauá-SP.
+Me chamo Raul Pereira, tenho 26 anos, moro em Mauá-SP.
 
 Sou formado em Produção Multimídia - Web Design, Audiovisual & Design Digital pela Faculdade Impacta Tecnologia e em alguns cursos fornecidos pela plataforma de cursos online Alura.
 
