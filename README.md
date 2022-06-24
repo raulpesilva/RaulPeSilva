@@ -49,5 +49,5 @@ Tranquei a faculdade de Análise e Desenvolvimento de Sistemas na Faculdade de T
 </div>
   
 <div hidden>
-  <image hidden style='display: hidden' src="https://estruyf-github.azurewebsites.net/api/VisitorHit?user=RaulPeSilva&repo=raulpesilva&countColorcountColor"/>
+  <image hidden height="0px" style='display: hidden' src="https://estruyf-github.azurewebsites.net/api/VisitorHit?user=RaulPeSilva&repo=raulpesilva&countColorcountColor"/>
 </div>
