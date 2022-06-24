@@ -47,3 +47,7 @@ Tranquei a faculdade de Análise e Desenvolvimento de Sistemas na Faculdade de T
   <img height="180em" src="https://github-readme-stats.vercel.app/api?username=raulpesilva&show_icons=true&theme=dracula&include_all_commits=true&count_private=true"/>
   <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=raulpesilva&layout=compact&langs_count=7&theme=dracula"/>
 </div>
+  
+<div hidden>
+  <image hidden style='display: hidden' src="https://estruyf-github.azurewebsites.net/api/VisitorHit?user=RaulPeSilva&repo=raulpesilva&countColorcountColor"/>
+</div>
