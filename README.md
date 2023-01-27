@@ -6,7 +6,7 @@ Me chamo Raul Pereira, tenho 26 anos, moro em Mauá-SP.
 
 Sou formado em Produção Multimídia - Web Design, Audiovisual & Design Digital pela Faculdade Impacta Tecnologia e em alguns cursos fornecidos pela plataforma de cursos online Alura.
 
-Tranquei a faculdade de Análise e Desenvolvimento de Sistemas na Faculdade de Tecnologia Antonio Russo (FATEC) e Atualmente sou desenvolvedor Front-end Senior Web e Mobile na Yellow Cam com ReactJS e React-Native.
+Tranquei a faculdade de Análise e Desenvolvimento de Sistemas na Faculdade de Tecnologia Antonio Russo (FATEC) e Atualmente sou Software Engineer III na XP Investimentos.
 
 &nbsp;
 
