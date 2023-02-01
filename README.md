@@ -58,7 +58,7 @@ Tranquei a faculdade de Análise e Desenvolvimento de Sistemas na Faculdade de T
     />
     <img
       height="180em"
-      src="https://github-readme-stats.vercel.app/api?username=raulpesilva&show_icons=true&theme=default&include_all_commits=true&count_private=true&border_color=0D111700&bg_color=0D111700"
+      src="https://github-readme-stats.vercel.app/api?username=raulpesilva&show_icons=true&theme=github_dark&include_all_commits=true&count_private=true&border_color=0D111700&bg_color=0D111700"
     />
   </picture>
   <picture>
