@@ -44,7 +44,7 @@ Tranquei a faculdade de Análise e Desenvolvimento de Sistemas na Faculdade de T
 
 <div>
   <a href="https://github.com/raulpesilva">
-    <picture>
+    <picture height="180em">
 <source 
   srcset="https://github-readme-stats.vercel.app/api?username=raulpesilva&show_icons=true&theme=github_dark&include_all_commits=true&count_private=true&hide_border"
   media="(prefers-color-scheme: dark)"
@@ -55,6 +55,16 @@ Tranquei a faculdade de Análise e Desenvolvimento de Sistemas na Faculdade de T
 />
 <img src="https://github-readme-stats.vercel.app/api?username=anuraghazra&show_icons=true" />
 </picture>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=raulpesilva&layout=compact&langs_count=7&theme=github_dark"/>
+    <picture height="180em">
+<source 
+  srcset="[https://github-readme-stats.vercel.app/api?username=raulpesilva&show_icons=true&theme=github_dark&include_all_commits=true&count_private=true&hide_border](https://github-readme-stats.vercel.app/api/top-langs/?username=raulpesilva&layout=compact&langs_count=7&theme=github_dark&hide_border)"
+  media="(prefers-color-scheme: dark)"
+/>
+<source
+  srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=raulpesilva&layout=compact&langs_count=7&theme=default&hide_border"
+  media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
+/>
+<img src="https://github-readme-stats.vercel.app/api?username=anuraghazra&show_icons=true" />
+</picture>
 </div>
 
