@@ -43,28 +43,40 @@ Tranquei a faculdade de Análise e Desenvolvimento de Sistemas na Faculdade de T
 [My personal settings](Config.md)
 
 <div>
-  <a href="https://github.com/raulpesilva">
-    <picture height="180em">
-<source 
-  srcset="https://github-readme-stats.vercel.app/api?username=raulpesilva&show_icons=true&theme=github_dark&include_all_commits=true&count_private=true&hide_border"
-  media="(prefers-color-scheme: dark)"
-/>
-<source
-  srcset="https://github-readme-stats.vercel.app/api?username=raulpesilva&show_icons=true&theme=default&include_all_commits=true&count_private=true&hide_border"
-  media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
-/>
-<img src="https://github-readme-stats.vercel.app/api?username=anuraghazra&show_icons=true" />
-</picture>
-    <picture height="180em">
-<source 
-  srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=raulpesilva&layout=compact&langs_count=7&theme=github_dark&hide_border"
-  media="(prefers-color-scheme: dark)"
-/>
-<source
-  srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=raulpesilva&layout=compact&langs_count=7&theme=default&hide_border"
-  media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
-/>
-<img src="https://github-readme-stats.vercel.app/api?username=anuraghazra&show_icons=true" />
-</picture>
+  <picture>
+    <source
+      srcset="
+        https://github-readme-stats.vercel.app/api?username=raulpesilva&show_icons=true&theme=github_dark&include_all_commits=true&count_private=true&border_color=0D111700&bg_color=0D111700
+      "
+      media="(prefers-color-scheme: dark)"
+    />
+    <source
+      srcset="
+        https://github-readme-stats.vercel.app/api?username=raulpesilva&show_icons=true&theme=default&include_all_commits=true&count_private=true&border_color=0D111700&bg_color=0D111700
+      "
+      media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
+    />
+    <img
+      height="180em"
+      src="https://github-readme-stats.vercel.app/api?username=raulpesilva&show_icons=true&theme=default&include_all_commits=true&count_private=true&border_color=0D111700&bg_color=0D111700"
+    />
+  </picture>
+  <picture>
+    <source
+      srcset="
+        https://github-readme-stats.vercel.app/api/top-langs/?username=raulpesilva&layout=compact&langs_count=7&theme=github_dark&border_color=0D111700&bg_color=0D111700
+      "
+      media="(prefers-color-scheme: dark)"
+    />
+    <source
+      srcset="
+        https://github-readme-stats.vercel.app/api/top-langs/?username=raulpesilva&layout=compact&langs_count=7&theme=default&border_color=0D111700&bg_color=0D111700
+      "
+      media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
+    />
+    <img
+      height="180em"
+      src="https://github-readme-stats.vercel.app/api/top-langs/?username=raulpesilva&layout=compact&langs_count=7&theme=github_dark&border_color=0D111700&bg_color=0D111700"
+    />
+  </picture>
 </div>
-
