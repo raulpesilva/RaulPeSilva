@@ -80,4 +80,3 @@ Tranquei a faculdade de Análise e Desenvolvimento de Sistemas na Faculdade de T
     />
   </picture>
 </div>
-<img hidden height="0px" width="0px" style="width: 0px; height: 0px;" src="https://profile-counter.glitch.me/raulpesilva/count.svg" alt="visitor badge"/>
