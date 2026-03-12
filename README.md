@@ -80,3 +80,5 @@ Tranquei a faculdade de Análise e Desenvolvimento de Sistemas na Faculdade de T
     />
   </picture>
 </div>
+
+![](https://komarev.com/ghpvc/?username=raulpesilva&style=pixel)
